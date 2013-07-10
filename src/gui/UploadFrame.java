@@ -192,7 +192,7 @@ public class UploadFrame extends JFrame{
 			
 			for (int i = 0; i < total_ankets;i++)
 			{
-				for (int j = 0; j < ank_ints_counts[i];i++)
+				for (int j = 0; j < ank_ints_counts[i];j++)
 				{
 					System.out.println(xml_files[i][j].getAbsolutePath());
 					StringBuilder str = new StringBuilder();
